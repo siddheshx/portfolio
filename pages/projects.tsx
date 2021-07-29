@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import Head from 'next/head'
 import React, { useState } from 'react'
 import { fadeInUp, routeAnimation, stagger } from '../animations'
 import ProjectCard from '../components/ProjectCard'
@@ -25,20 +26,25 @@ const Projects = () => {
     }
 
     return (
-        <motion.div 
+        <motion.div
             variants={routeAnimation}
             initial="initial"
             animate="animate"
             exit="exit" className="px-5 py-2 overflow-y-scroll" style={{ height: "65vh" }}>
+            <Head>
+                <title>
+                    Sid | portfolio | projects
+                </title>
+            </Head>
             <ProjectsNavbar active={active} handlerFilterCateogry={handlerFilterCateogry} />
-            <motion.div 
+            <motion.div
                 variants={stagger}
                 initial="initial"
-                animate="animate" 
+                animate="animate"
                 className="relative grid grid-cols-12 gap-4 my-3">
                 {
                     projects.map(project => (
-                        <motion.div 
+                        <motion.div
                             variants={fadeInUp} className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200" key={project.name}>
                             <ProjectCard project={project} showDetail={showDetail} setShowDetail={setShowDetail} />
                         </motion.div>

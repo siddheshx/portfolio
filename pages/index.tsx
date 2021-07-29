@@ -4,6 +4,8 @@ import ServiceCard from '../components/ServiceCard';
 import { services } from '../data';
 import { fadeInUp, routeAnimation, stagger } from '../animations';
 
+import Head from 'next/head';
+
 const index = () => {
   return (
     <motion.div 
@@ -12,6 +14,11 @@ const index = () => {
       animate="animate"
       exit="exit"
       className="flex flex-col flex-grow px-6 pt-1 ">
+      <Head>
+        <title>
+          Sid | portfolio | about
+        </title>
+      </Head>
       <h6 className="my-3 text-base font-medium">
         I am currently pursuing B.Tech Degree(Final Year) in Computer Science
         Engineering from Academy of Technology. I have 3+ years of experience in

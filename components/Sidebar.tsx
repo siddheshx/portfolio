@@ -34,13 +34,13 @@ const Sidebar = () => {
                 <GiTie className="w-6 h-6" /> Download Resume
             </a>
             <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-                <a href="">
+                <a href="https://adroitsoft.tech" aria-label="Youtube">
                     <AiFillYoutube className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="https://adroitsoft.tech" aria-label="Github">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="https://adroitsoft.tech" aria-label="LinkedIn">
                     <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
                 </a>
             </div>
