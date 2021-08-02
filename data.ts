@@ -1,6 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { AiOutlineAntDesign, AiOutlineApi, AiOutlineBug } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
 import { IProject, Service, Skill } from "./types";
@@ -10,91 +10,121 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>,<b>Tailwind</b> and <b>React Framework</b>",
   },
   {
     Icon: FaServer,
-    title: "Backend  Development",
+    title: "Backend Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "Can write clean, scalable and distributed backend using vairous framework in <b>Nodejs</b> and <b>PHP</b>",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "Create light, fast and secure <b>REST API</b>, using best framework and securing them with <b>OAuth</b>, <b>JWT</b> and <b>passport</b>",
   },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "A seasoned problem solver at <b>Project Euler</b> and <b>HackerRank</b>.",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "Designing stunning user interface using <b>Figma</b>.",
   },
   {
-    Icon: RiComputerLine,
-    title: "Whatever",
+    Icon: AiOutlineBug,
+    title: "Excellent testing and debugging skills",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "Maintaining documentation of test results to assist in debugging and modification of software.",
   },
 ];
 
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
+    name: "Php",
+    level: "95",
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60",
+    name: "Laravel",
+    level: "100",
   },
   {
     Icon: BsCircleFill,
-    name: "React Native",
+    name: "Nodejs",
+    level: "82",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "HTML/CSS",
+    level: "85",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Javascirpt",
     level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "React",
+    level: "88",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "MySql",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "NoSql",
+    level: "40",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "AWS",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Tailwind",
     level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    name: "Nextjs",
+    level: "75",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
+    name: "Redis",
+    level: "70",
   },
 ];
 
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
+    name: "VSCode",
+    level: "100",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "git",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Docker",
+    level: "55",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Figma",
-    level: "85",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Framer",
     level: "45",
   },
 ];
@@ -102,109 +132,65 @@ export const tools: Skill[] = [
 export const projects: IProject[] = [
   {
     id: 1,
-    name: "COVID Tracker",
+    name: "Memories",
     description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+      "A CURD project where user can post there memories, like comment and delete post.",
+    image_path: "/images/memories.png",
+    deployed_url: "http://memories.adroitsoft.tech",
+    github_url: "https://adroitsoft.tech",
+    category: ["react", "nestjs", "mongo"],
+    key_techs: ["React", "Nestjs", "Material UI", "JWT-Auth", "Redux-Toolkit"],
   },
   {
     id: 2,
-    name: "Algorithm Visualizer",
-    image_path: "/images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-    category: ["react"],
+    name: "Amazon clone",
+    image_path: "/images/amazona.png",
+    deployed_url: "https://amazona.adroitsoft.tech",
+    github_url: "https://adroitsoft.tech",
+    category: ["react", "express", "mongo"],
     description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
+      "Amazon clone with complete frontend, backend and many more functionality.",
+    key_techs: ["React", "Express", "Multer", "jsonwebtoken", "socket.io"],
   },
 
   {
     id: 3,
-    name: "Dev Talks",
-    image_path: "/images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
-    category: ["node", "mongo", "react"],
+    name: "Portfolio",
+    image_path: "/images/portfolio.png",
+    deployed_url: "http://sid-bgk.adroitsoft.tech",
+    github_url: "https://adroitsoft.tech",
+    category: ["nextjs", "react"],
     description:
-      "Social Media app for developers who can share project,create posts,etc...",
+      "A digital resume to showcase skills to recruiter, clients and friends.",
     key_techs: [
       "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
+      "framer-motion",
+      "react-icons",
+      "tailwindcss"
     ],
   },
 
   {
     id: 4,
-    name: "Realtime Chat App",
-    image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-    category: ["node", "react"],
+    name: "Super Chat",
+    image_path: "/images/superchat.png",
+    deployed_url: "http://superchat.adroitsoft.tech/",
+    github_url: "https://adroitsoft.tech",
+    category: ["react"],
     description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
+      "Basic Realtime Chat App with image upload where one can create a room can talk to each other. Used various apis such as Firebase, React Chat Engine and Firebase auth.",
+    key_techs: ["React", "Firebase", "Facebook Auth", "Google Auth", "React Chat Engine"],
   },
 
   {
     id: 5,
-    name: "Tweeter Clone",
-    image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
-    description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
-  },
-
-  {
-    id: 6,
-    name: "Color Classification using tf.js",
-    image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["express"],
-    description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
-  },
-  {
-    id: 7,
-    name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["express"],
-    description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-    key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
-    ],
-  },
-  {
-    id: 8,
-    name: "Football App",
-    image_path: "/images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
+    name: "Super VChat",
+    image_path: "/images/supervchat_2.png",
+    deployed_url: "https://supervchat.adroitsoft.tech",
+    github_url: "https://adroitsoft.tech",
     category: ["react"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
-  },
+      "One to one video call app with use of WebRTC and socket.io",
+    key_techs: ["React", "socket.io", "WebRTC"],
+  }
 ];

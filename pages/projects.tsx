@@ -30,10 +30,10 @@ const Projects = () => {
             variants={routeAnimation}
             initial="initial"
             animate="animate"
-            exit="exit" className="px-5 py-2 overflow-y-scroll" style={{ height: "65vh" }}>
+            exit="exit" className="px-5 py-2 overflow-y-scroll" style={{ height: "60vh" }}>
             <Head>
                 <title>
-                    Sid | portfolio | projects
+                    Sid B | Projects
                 </title>
             </Head>
             <ProjectsNavbar active={active} handlerFilterCateogry={handlerFilterCateogry} />

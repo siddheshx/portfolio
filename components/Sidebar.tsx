@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
@@ -13,10 +13,15 @@ const Sidebar = () => {
         setTheme(theme === "light" ? "dark" : "light");
     }
 
+    useEffect(() => {
+        setTheme("dark");
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
     return (
         <div>
             <Image
-                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQynIAJReBEhr6FGTQHQkIo0jmfWLY07G0J7qMOUQow9hBHf-Ad"
+                src="/images/sid_bgk.jpeg"
                 alt="Siddhesh Bgk"
                 className="mx-auto rounded-full"
                 height="128px"
@@ -24,7 +29,7 @@ const Sidebar = () => {
                 quality="100"
             />
             <h3
-                className="my-4 text-3xl font-medium tracking-wider font-kaushan"
+                className="my-4 text-3xl font-bold tracking-wider font-roboto"
             >
                 <span className="text-green">Siddhesh </span>
                 B
@@ -34,13 +39,7 @@ const Sidebar = () => {
                 <GiTie className="w-6 h-6" /> Download Resume
             </a>
             <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-                <a href="https://adroitsoft.tech" aria-label="Youtube">
-                    <AiFillYoutube className="w-8 h-8 cursor-pointer" />
-                </a>
-                <a href="https://adroitsoft.tech" aria-label="Github">
-                    <AiFillGithub className="w-8 h-8 cursor-pointer" />
-                </a>
-                <a href="https://adroitsoft.tech" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/siddhesh-bhogaonkar-a15728172" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                     <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
                 </a>
             </div>

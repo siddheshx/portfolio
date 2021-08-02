@@ -6,10 +6,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
-            rel="stylesheet"
-          />
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"></link>
           <meta
             name="description"
             content="MERN stack developer looking for a job"
@@ -19,7 +16,7 @@ class MyDocument extends Document {
             content="Full Stack Web Developer, Freelancer ,MERN developer"
           />
         </Head>
-        <body className="bg-fixed bg-gradient-to-r from-green to-blue-500 dark:from-dark-500 dark:to-dark-700 dark:text-white">
+        <body className="bg-fixed bg-gradient-to-r from-blue-500 to-blue-700 dark:from-dark-500 dark:to-dark-700 dark:text-white">
           <Main />
           <NextScript />
         </body>
