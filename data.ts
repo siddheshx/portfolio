@@ -145,7 +145,7 @@ export const projects: IProject[] = [
     id: 2,
     name: "Amazon clone",
     image_path: "/images/amazona.png",
-    deployed_url: "https://amazona.adroitsoft.tech",
+    deployed_url: "http://amazona.adroitsoft.tech",
     github_url: "https://adroitsoft.tech",
     category: ["react", "express", "mongo"],
     description:
@@ -157,7 +157,7 @@ export const projects: IProject[] = [
     id: 3,
     name: "Portfolio",
     image_path: "/images/portfolio.png",
-    deployed_url: "http://sid-bgk.adroitsoft.tech",
+    deployed_url: "https://sid-bgk.adroitsoft.tech",
     github_url: "https://adroitsoft.tech",
     category: ["nextjs", "react"],
     description:
