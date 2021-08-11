@@ -192,5 +192,17 @@ export const projects: IProject[] = [
     description:
       "One to one video call app with use of WebRTC and socket.io",
     key_techs: ["React", "socket.io", "WebRTC"],
+  },
+
+  {
+    id: 6,
+    name: "Airbnb Clone",
+    image_path: "/images/airbnb.png",
+    deployed_url: "https://airbnb-demo.adroitsoft.tech",
+    github_url: "https://adroitsoft.tech",
+    category: ["nextjs", "react"],
+    description:
+      "Airbnb clone made using Next.js, Tailwind CSS, Calendar Picker, Mapbox.",
+    key_techs: ["React", "NextJs", "MapBox", "tailwindcss"],
   }
 ];
