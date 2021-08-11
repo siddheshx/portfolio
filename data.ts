@@ -198,7 +198,7 @@ export const projects: IProject[] = [
     id: 6,
     name: "Airbnb Clone",
     image_path: "/images/airbnb.png",
-    deployed_url: "https://airbnb-demo.adroitsoft.tech",
+    deployed_url: "https://airbnb-clone-virid.vercel.app",
     github_url: "https://adroitsoft.tech",
     category: ["nextjs", "react"],
     description:
