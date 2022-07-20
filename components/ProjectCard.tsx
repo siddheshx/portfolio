@@ -66,17 +66,6 @@ const ProjectCard: FunctionComponent<{
                 />
 
               </motion.div>
-              <motion.div
-                variants={fadeInUp} className="flex justify-center my-4 space-x-3">
-                <a
-                  href={deployed_url}
-                  className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <AiFillProject /> <span>Project</span>
-                </a>
-              </motion.div>
             </motion.div>
 
             <motion.div

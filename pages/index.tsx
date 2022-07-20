@@ -20,8 +20,12 @@ const index = () => {
         </title>
       </Head>
       <div className="my-3 text-base font-medium">
-        Dedicated and efficient full stack developer with with 3+ years of experience building applications with a variety of tools, languages, and frameworks. Excels in learning new technologies and applying them to develop clean and well-structured code. Experienced at working on projects at all stages of the Software Development Life Cycle (SDLC) from idea to
-        development to delivering the completed product.
+      Dedicated	 and	 efficient	 software	 engineer with	 4+	 years	 of
+      experience	 building	 applications	 with	 a	 variety	 of	 tools,	 languages,	 and
+      frameworks.	 Excels	 in	 learning	 new	 technologies	 and	 applying	 them	 to
+      develop clean	and	well-structured	code.	Experienced	at	working	on	projects
+      at	 all	 stages	of	the	 Software	 Development	 Life	 Cycle	 (SDLC)	from	 idea	 to
+      development	to	delivering	the	completed	product.
       </div>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"

@@ -27,7 +27,7 @@ export const services: Service[] = [
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "A seasoned problem solver at <b>Project Euler</b> and <b>HackerRank</b>.",
+    about: "A seasoned problem solver at <b>Project Euler</b>, <b>HackerRank</b> and <b>LeetCode</b>.",
   },
   {
     Icon: AiOutlineAntDesign,
@@ -46,6 +46,51 @@ export const services: Service[] = [
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
+    name: "Nodejs",
+    level: "95",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "NestJs",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "AWS",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "React",
+    level: "88",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Express",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "MySql",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "MongoDB",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "RabbitMQ",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Google Cloud Functions",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Php",
     level: "95",
   },
@@ -56,11 +101,6 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Nodejs",
-    level: "82",
-  },
-  {
-    Icon: BsCircleFill,
     name: "HTML/CSS",
     level: "85",
   },
@@ -68,26 +108,6 @@ export const languages: Skill[] = [
     Icon: BsCircleFill,
     name: "Javascirpt",
     level: "80",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React",
-    level: "88",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "MySql",
-    level: "90",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "NoSql",
-    level: "40",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "AWS",
-    level: "60",
   },
   {
     Icon: BsCircleFill,
@@ -102,6 +122,16 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Redis",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Clickhouse",
+    level: "48",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "AWS Athena",
     level: "70",
   },
 ];
@@ -120,7 +150,7 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Docker",
-    level: "55",
+    level: "85",
   },
   {
     Icon: BsCircleFill,

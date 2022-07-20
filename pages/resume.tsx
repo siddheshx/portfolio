@@ -45,8 +45,51 @@ const resume = () => {
 
                     <h5 className="my-3 text-2xl font-bold">Experience</h5>
                     <div>
+                        <h5 className="my-2 text-xl font-bold">SOFTWARE	ENGINEER</h5>
+                        <p className="font-semibold">MAKE.IO <span className="text-sm font-light">(Sept. 2021 - Present)</span></p>
+                        <p className="my-3">Make.io, currently known as makestories.io is a product	
+based company. We currently have two products	
+MakeStories and MakeForms. MakeStories provide a	
+simple	platform	to	create	a	web	story	for	Instagram,	Google	
+webstories, etc where web stories are supported.	
+MakeForms	is	like	Google forms	but	better	with	around	40+	
+customisation	and	template	options.
+For MakeStories I was responsible for migrating Laravel	
+(php) api to nestjs, migrated around 50+ APIs. Later I	
+developed	2	individual	modules.</p><p className="my-3">
+For MakeForms handled setup, deployment and
+integration of elasticsearch. Created api related to form	
+responses for ag-grid which is advance high performace	
+react	table.	Handled	various	integration	from	google	sheet	
+to	Mailchimp</p>
+                        <h3 className="font-semibold">Major accomplishments:</h3>
+                        <ul className="list-outside">
+                            <li>
+                                Developed full-stack web application which
+                                processed, analyzed, and rendered data visually
+                            </li>
+                            <li>
+                                Managed time-sensitive updates, including
+                                content changes and database upgrades.
+                            </li>
+                            <li>
+                                Planned, wrote, and debugged application
+                                features with complete accuracy.
+                            </li>
+                            <li>
+                                Successfully integrate Azure Active Directory, to
+                                implement Single Sign-On feature.
+                            </li>
+                            <li>
+                                90% of features were completed ahead of
+                                schedule.
+                            </li>
+                        </ul>
+                    </div>
+                    <hr />
+                    <div>
                         <h5 className="my-2 text-xl font-bold">PROJECT MANAGER</h5>
-                        <p className="font-semibold">IAUDITED <span className="text-sm font-light">(May 2019 - Present)</span></p>
+                        <p className="font-semibold">IAUDITED <span className="text-sm font-light">(May 2019 - Sept. 2021)</span></p>
                         <p className="my-3">iAudited is a Layered Process Audit (LPA) software, a tool
                             for the consistent implementation of process standards to
                             improve product quality. As project manager my
@@ -128,7 +171,7 @@ const resume = () => {
                     <h5 className="my-3 text-2xl font-bold">Education</h5>
                     <div>
                         <h5 className="my-2 text-xl font-bold">BCA</h5>
-                        <p className="font-light">Indira Gandhi National Open University (IGNOU)</p>
+                        <p className="font-light">Amrita Vishwa Vidyapeetham (2nd Year)</p>
                     </div>
                     <hr />
                     <div>
