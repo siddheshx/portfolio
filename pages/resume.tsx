@@ -65,24 +65,38 @@ to	Mailchimp</p>
                         <h3 className="font-semibold">Major accomplishments:</h3>
                         <ul className="list-outside">
                             <li>
-                                Developed full-stack web application which
-                                processed, analyzed, and rendered data visually
+                            Created	analytics   module	from	scratch	which	
+measured	story	views,	page	views	and	click	data.
                             </li>
                             <li>
-                                Managed time-sensitive updates, including
-                                content changes and database upgrades.
+                            Successfully	capturing	300+	requests	per	second	
+with	robust	architecture.
                             </li>
                             <li>
-                                Planned, wrote, and debugged application
-                                features with complete accuracy.
+                            Used	various	technologies	like	RabbitMQ,	
+Filesystem,	Nodejs,	Google	cloud	functions,	
+MongoBD	and	clickhouse	to	capture	requests	
+with	minimum	or	no	data	loss.
                             </li>
                             <li>
-                                Successfully integrate Azure Active Directory, to
-                                implement Single Sign-On feature.
+                            Designed	AWS	Athena,	MongoBD,	clickhouse	and	
+redis	architecture	for	fast	data	retrieval.	Scanning	
+more	than	billion	records	within	few	seconds.
                             </li>
                             <li>
-                                90% of features were completed ahead of
-                                schedule.
+                            Implemented	Elasticserch	services	for	
+maintaining	replica	of	database,	which	is	further	
+used	to	retrieve	count	or	data	as	needed	at	much	
+faster	speed.
+                            </li>
+                            <li>
+                            Integrated	Google	sheet	and	other	mailing	
+technology	which	sent	data	to	there	respective	
+sheet	or	mailing	agent.
+                            </li>
+                            <li>
+                            Handled	team	of	4	while	developing	modules	for	
+MakeForms.
                             </li>
                         </ul>
                     </div>
